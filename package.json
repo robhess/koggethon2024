@@ -1,0 +1,14 @@
+{
+  "name": "koggethon2024",
+  "version": "1.0.0",
+  "description": "Koggethon 2024",
+  "type": "module",
+  "scripts": {
+    "server": ""
+  },
+  "author": "node ./server/index.js",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.17.0"
+  }
+}

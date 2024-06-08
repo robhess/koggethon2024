@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Websocket Test</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <script type="module">
+        import { Client } from "./Client.js";
+
+        Client.join("ws://localhost:8080", "Robin", "#0000FF").then(client => {
+            // bla
+        });
+    </script>
+</body>
+
+</html>
