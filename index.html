@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <script src="leaflet/leaflet.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="loginContainer">
+      <div class="loginFrame">
+        <h1>Login</h1>
+        <input
+          id="usernameInput"
+          type="text"
+          name="koggethonName"
+          placeholder="Username"
+        />
+        <button id="loginButton" class="loginButton">Login</button>
+        <p id="error" class="error" style="display: none">Fehler aus Gründen</p>
+      </div>
+    </div>
+    <div class="container" style="display: none">
+      <div class="map" id="map"></div>
+      <div class="userList"></div>
+      <div>
+        <div class="chatList">
+          <div class="messagebox"></div>
+          <div class="row">
+            <input id="messageInput" type="text" class="messageInput" />
+            <button id="sendbutton" class="sendButton">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

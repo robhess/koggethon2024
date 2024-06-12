@@ -4,7 +4,7 @@
   "description": "Koggethon 2024",
   "type": "module",
   "scripts": {
-    "server": ""
+    "server": "node ./server/index.js"
   },
   "author": "node ./server/index.js",
   "license": "ISC",
